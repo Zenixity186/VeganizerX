@@ -1,2 +1,2 @@
 # VeganizerX
-That's a malware
+This malware is no joke; we are not responsible for any issues this malware may cause to your hardware. Only run this malware in a controlled environment, such as a virtualized machine (VM).
